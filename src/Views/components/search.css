@@ -1,0 +1,21 @@
+.search-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.search-input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}

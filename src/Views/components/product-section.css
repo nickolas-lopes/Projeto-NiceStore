@@ -1,0 +1,15 @@
+.show-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.not-found{
+    font-size: 24px;
+    color: #605f5f8b;
+}
+.fa-face-sad-tear{
+    font-size: 100px;
+    color: #605f5f8b;
+}

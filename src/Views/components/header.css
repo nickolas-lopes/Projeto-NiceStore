@@ -1,0 +1,25 @@
+header{
+    background-color: #000000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img{
+    width: 150px;
+}
+.nav-list{
+   list-style: none;
+   display: flex;
+   gap: 20px;
+   display: flex;
+   justify-content: space-around;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.nav-bar{
+    margin-right: 20px;
+}
