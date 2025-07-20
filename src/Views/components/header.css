@@ -4,6 +4,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 10px;
 }
 .logo-img{
     width: 150px;
@@ -22,4 +23,5 @@ header{
 }
 .nav-bar{
     margin-right: 20px;
+    width: 300px;
 }

@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/login.css">
 </head>
-<body>
-    
+<body class="login-body">
+    <main class="login">
+        <form action="">
+            <h2 class="login-title">Login</h2>
+            <div class="input-group">
+                <label for="username" class="input-label">Usuário:</label>
+                <input type="text" id="username" class="input-field" placeholder="Digite seu usuário">
+            </div>
+            <div class="input-group">
+                <label for="password" class="input-label">Senha:</label>
+                <input type="password" id="password" class="input-field" placeholder="Digite sua senha">
+            </div>
+            <button type="submit" class="login-button">Entrar</button>
+            <p class="register-link">Não tem uma conta? <a href="#">Registrar</a></p>
+        </form>
+    </main>
 </body>
 </html>
