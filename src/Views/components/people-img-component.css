@@ -1,0 +1,28 @@
+.image{
+    background-image: url('../assets/img/helena-lopes-e3OUQGT9bWU-unsplash.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(50%);
+}
+.call-to-action{
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.be-nice{
+    text-align: center;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 10px ;
+}
+.blacklogo{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}

@@ -1,7 +1,5 @@
 .login-body{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 .login {
@@ -9,7 +7,7 @@
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(10, 10, 10, 0.229);
+    width: 50vw;
 }
 .login-title {
     text-align: center;
@@ -20,12 +18,12 @@
     width: 100%;
     margin-bottom: 5px;
     color: #141414;
-    width: 100%;
+    width: 300px;
     height: 40px;
     padding: 0 10px;
     border-radius: 20px;
-    outline: none;
     border: 2px solid #ccc;
+    display: block;
 }
 .login-button {
     width: 100px;
@@ -50,4 +48,14 @@
 .register-link {
     text-align: center;
     color: #141414;
+}
+.people-img-login {
+    background-image: url('../assets/img/simi-iluyomade-tvbxqXI5mmo-unsplash.jpg');
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(50%);
+    margin: 0;
+    
 }
