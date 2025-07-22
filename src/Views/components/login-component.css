@@ -8,6 +8,9 @@
     background-color: #ffffff;
     border-radius: 8px;
     width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .login-title {
     text-align: center;
@@ -18,7 +21,7 @@
     width: 100%;
     margin-bottom: 5px;
     color: #141414;
-    width: 300px;
+    width: 500px;
     height: 40px;
     padding: 0 10px;
     border-radius: 20px;
@@ -57,5 +60,13 @@
     background-position: center;
     filter: grayscale(50%);
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.action {
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
