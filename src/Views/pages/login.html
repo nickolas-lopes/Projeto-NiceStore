@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.min.css">
 </head>
 <body class="login-body">
     <aside class="people-img-login">
@@ -15,15 +16,17 @@
             <h2 class="login-title">Login</h2>
             <div class="input-group">
                 <label for="username" class="input-label">Usuário:</label>
-                <input type="text" id="username" class="input-field" placeholder="Digite seu usuário">
+                <input type="text" id="username" class="input-field login-field" placeholder="Digite seu usuário">
             </div>
             <div class="input-group">
                 <label for="password" class="input-label">Senha:</label>
-                <input type="password" id="password" class="input-field" placeholder="Digite sua senha">
+                <input type="password" id="password" class="input-field login-field" placeholder="Digite sua senha">
             </div>
-            <button type="submit" class="login-button">Entrar</button>
-            <p class="register-link">Não tem uma conta? <a href="#">Registrar</a></p>
+            <button type="submit" class="login-button" id="login">Entrar</button>
+            <p class="register-link">Não tem uma conta? <a href="cadastro.html">Registrar</a></p>
         </form>
     </main>
+    <script src="../scripts/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
